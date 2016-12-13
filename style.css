@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("./fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("./fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("./fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2, h6, p, a, ul, li, button, section, div {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.widget {
+    width: 240px;
+    height: 550px;
+    margin-left: 271px;
+    margin-top: 23px;
+    border-radius: 5px;
+    background-color: #f5f6f7;
+    font-family: "ProximaNovaRegular";
+}
+
+.widget__main-photo-space {
+    width: 240px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+.widget__main-photo-space__main-photo {
+    width: 100%;
+}
+
+.widget__icons-line {
+    padding-top: 12px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebeced;
+}
+
+.widget__icons-line__name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3f4041;
+}
+
+.widget__icons-line__button {
+    margin-top: 3px;
+    margin-right: 30px;
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 13px;
+    color: #797b7c;
+    cursor: pointer;
+}
+
+.widget__icons-line__button.button-share {
+    margin-left: 21px;
+}
+
+.widget__icons-line__button::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: -15px;
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.widget__icons-line__button.button-share::before {
+    left: -21px;
+    background-image: url("repins.svg");
+}
+
+.widget__icons-line__button.button-likes::before {
+    background-image: url("likes.svg");
+}
+
+.widget__icons-line__button.button-comments::before {
+    background-image: url("comments.svg");
+}
+
+.widget__from {
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e5e6e7;
+    font-size: 13px;
+    color: #797b7c;
+}
+
+.widget__from p {
+    display: inline-block;
+}
+
+.widget__from__link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3f4041;
+}
+
+.widget__comments {
+    min-height: 150px;
+    max-height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    overflow-y: auto;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #eff0f1;
+}
+
+.widget__comments__list__item {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.widget__comments__list__item__image {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 3px;
+}
+
+.widget__comments__list__item__information {
+    margin-left: 10px;
+}
+
+.widget__comments__list__item__information__user-name {
+    font-size: 14px;
+    color: #3f4041;
+    font-weight: 700;
+}
+
+.widget__comments__list__item__information__comment-content {
+    font-size: 13px;
+    color: #3f4041;
+}
+
+.widget__comments__list__item__information .input-comment {
+    width: 139px;
+    min-height: 44px;
+    padding: 8px 10px;
+    resize: none;
+    border-radius: 3px;
+    box-shadow: inset 0 0 3px #d1d2d3;
+    border: 1px solid #d1d2d3;
+    background-color: #f5f6f7;
+    color: #3f4041;
+    font-size: 13px;
+    font-family: "ProximaNovaRegular";
+}
+
+.widget__comments__list__item__information .add-button {
+    float: right;
+    margin-top: 5px;
+    margin-right: 19px;
+    width: 67px;
+    height: 30px;
+    border: 1px solid #bd1921;
+    border-radius: 2px;
+    background: linear-gradient(0deg, #c31a22 0%, #d71d26 100%);
+    box-shadow: 0px 2px 0px 0px rgba(142, 19, 25, 0.15) inset;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=stylecss.css.map */

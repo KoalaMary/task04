@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Maria Baeva">
+    <link rel="stylesheet" href="style.css">
+    <title>Widget</title>
 </head>
 <body>
+<div class="widget">
+    <section class="widget__main-photo-space">
+        <img src="main-photo.png" alt="photo" class="widget__main-photo-space__main-photo">
+    </section>
+    <section class="widget__icons-line">
+        <h2 class="widget__icons-line__name">Matilda</h2>
+        <button class="widget__icons-line__button button-share">26</button>
+        <button class="widget__icons-line__button button-likes">10</button>
+        <button class="widget__icons-line__button button-comments">1</button>
+    </section>
 
+    <section class="widget__from">
+        <p>Pinned from</p>
+        <a class="widget__from__link" href="#">uncovet.com</a>
+    </section>
+
+    <section class="widget__comments">
+        <ul class="widget__comments__list">
+            <li class="widget__comments__list__item">
+                <img src="user1.png" alt="user-image" class="widget__comments__list__item__image">
+                <div class="widget__comments__list__item__information">
+                    <h6 class="widget__comments__list__item__information__user-name">Hannah Kern</h6>
+                    <p class="widget__comments__list__item__information__comment-content">Thats SWEEEEEEET!</p>
+                </div>
+            </li>
+            <li class="widget__comments__list__item">
+                <img src="user2.png" alt="user-image" class="widget__comments__list__item__image">
+                <form class="widget__comments__list__item__information" action="">
+                    <img src="" alt="">
+                    <textarea class="input-comment" name="comment" maxlength="500">Eyes looks</textarea>
+                    <input class="add-button" type="submit" name="add" value="Add">
+                </form>
+            </li>
+        </ul>
+    </section>
+</div>
 </body>
 </html>
